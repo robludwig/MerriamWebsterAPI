@@ -18,7 +18,6 @@ class MerriamWebsterAPI:
         
     def _retrieve_xml(self, word):
         if word in self.cachedXML:
-            print('returning xml from cache')
             return self.cachedXML[word]
         endpoint_url = self._wrap_url(self.base_url + quote_plus(word))
         xmlre = urlopen(endpoint_url).read()
