@@ -1,11 +1,11 @@
 MerriamWebsterAPI
 =================
 
-A demo Python implementation of the Merriam Webster API for use in Python applications. For more information see the offical
+A demo Python implementation of the Merriam-Webster Inc. API for use in Python applications. For more information see the offical
 [Merriam Webster page](http://www.dictionaryapi.com/) for the API. 
 
 As the API only allows developers to have keys to 2 services, I was only able to implement parsers for the ones I was interested in,
-namely the thesaurus API and the collegiate dictionary. If you're interested in more, find a way to hook me up with keys to other
+namely the "Collegiate® Thesaurus API and the "Collegiate® Dictionary. If you're interested in more, find a way to hook me up with keys to other
 products.
 
 As it stands, you can get a quick definition of a word by doing
